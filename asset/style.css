@@ -1,0 +1,205 @@
+.header {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 4.8rem;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 50px;
+    border-bottom: 1px solid #cdd2d7;
+    margin-top: 0;
+
+}
+
+.header-second {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    height: 3.3rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 180px;
+    padding-right: 190px;
+
+}
+
+body {
+    height: 1000px;
+    margin: 0
+}
+
+.logo {
+
+    height: 34px;
+    width: 91px;
+    padding-left: 25px;
+}
+
+.profile {
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 35px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin-right: 30px
+}
+
+.notifications {
+    height: 50px;
+    width: 30px;
+}
+
+p {
+    cursor: pointer;
+    font-weight: 350;
+    line-height: 1.4;
+    color: #2d2f31;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.search-bar {
+    border-radius: 20px;
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: 300;
+    width: 780px;
+    height: 40px;
+    margin-left: 10px;
+    border: 0;
+
+
+}
+
+.search-bar:active {
+    border: 0;
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+    height: 51px;
+    width: 700px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid rgb(128, 120, 120);
+    cursor: not-allowed;
+}
+
+.poster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    position: relative;
+}
+
+.previous {
+
+    position: absolute;
+    z-index: 100;
+    margin-right: 1250px;
+    height: 40px;
+
+}
+
+.next {
+    position: absolute;
+    z-index: 100;
+    height: 40px;
+    margin-left: 1250px;
+}
+
+.offer {
+    padding-top: 29px;
+    padding-left: 23px;
+    margin-right: 1000px;
+    position: absolute;
+    z-index: 100;
+    height: 190px;
+    margin-left: 250px;
+    background-color: white;
+    width: 26rem;
+    font-family: SuisseWorks;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.16px;
+
+}
+
+.details-offer {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.welcome {
+    margin-top: 40px;
+    margin-left: 120px;
+    font-weight: 700;
+    letter-spacing: -0.16px;
+    font-size: 32px;
+    font-family: SuisseWorks;
+}
+
+.my-learning {
+    position: relative;
+    display: flex;
+    padding: 0.8rem;
+    align-items: center;
+    margin-left: 85px;
+    
+}
+
+.learning-1 {
+    display: flex;
+    align-items: center;
+    border:1px solid rgb(181, 190, 196);
+    
+    height: 150px;
+    width: 400px;
+    margin-left: 20px;
+}
+
+.clock {
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.learning-title {
+    position: absolute;
+    margin-bottom: 100px;
+    margin-left: 135px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: sans-serif;
+
+}
+
+.learning-details {
+    font-family: sans-serif;
+    margin-left: 25px;
+}
+.learning-end{
+   position: absolute;
+   margin-left: 135px;
+   margin-top: 80px;
+   font-family: sans-serif;
+   font-weight: 700;
+   font-size: 17px;
+   color: rgb(86, 36, 208);
+   
+}
+.close{
+    opacity: 0.8;
+    margin-bottom: 120px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
